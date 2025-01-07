@@ -85,7 +85,7 @@
 
 [[inputs.aos]]
 
-  port = $INPUT_PORT_ES
+  port = "$INPUT_PORT_ES"
 
   # Address of the server running Telegraf, it's need to be reacheable from AOS
   address = "$LOCAL_IP"
@@ -97,7 +97,7 @@
 
   # Define parameter to join the AOS Server using the REST API
   aos_server = "$AOS_SERVER"
-  aos_port = $AOS_PORT
+  aos_port = "$AOS_PORT"
   aos_login = "$AOS_LOGIN"
   aos_password = "$AOS_PASSWORD"
 
