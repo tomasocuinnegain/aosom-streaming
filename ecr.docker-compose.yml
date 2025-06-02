@@ -7,7 +7,7 @@ services:
 # Grafana - Graphical Interface
 # -------------------------------------------------------------------------
   grafana:
-    image: public.ecr.aws/ubuntu/grafana:11.0.0-22.04_stable
+    image: public.ecr.aws/apstra-juniper/grafana/grafana:12.0.1
     volumes:
       - /etc/localtime:/etc/localtime
       - grafana_data_2:/var/lib/grafana
